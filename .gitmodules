@@ -4,3 +4,6 @@
 [submodule "65816-c"]
 	path = 65816-c
 	url = https://github.com/WorldsApartDevTeam/65816-c
+[submodule "qc"]
+	path = qc
+	url = https://github.com/chorman0773/qc.git
