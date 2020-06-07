@@ -1,0 +1,1 @@
+INCLUDE wc65c816-snesdev-vectors.ld
