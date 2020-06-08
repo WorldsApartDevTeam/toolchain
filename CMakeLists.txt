@@ -19,7 +19,7 @@ add_subdirectory(llvm-project/llvm)
 set(COMPILER_TARGET ${SNESDEV_TARGET_NAME})
 add_subdirectory(65816-c)
 unset(COMPILER_TARGET)
-add_subdirectory(qc)
+# add_subdirectory(qc)
 
 install(DIRECTORY DESTINATION ${SNESDEV_SYSROOT})
 install(FILES ld/wc65c816-snes-none-elf.ld ld/wc65816-snesdev-vectors.ld DESTINATION ${SNESDEV_SYSROOT}/lib)
