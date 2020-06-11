@@ -1,0 +1,9 @@
+// From modified bsnes, memory configuration for SNES ExHiROM Standard Paging
+memory type=ROM content=.text,.rodata
+    map address=00-3f:8000-ffff base=0x400000
+    map address=40-7d:0000-ffff base=0x400000
+    map address=80-bf:8000-ffff mask=0xc00000
+    map address=c0-ff:0000-ffff mask=0xc00000
+memory type=PRAM content=.pram
+    map address=20-3f,a0-bf:6000-7fff mask=0xe000
+    map address=70-7d:0000-7fff

@@ -7,3 +7,6 @@
 [submodule "qc"]
 	path = qc
 	url = https://github.com/chorman0773/qc.git
+[submodule "SNES-Dev-Utils"]
+	path = SNES-Dev-Utils
+	url = https://github.com/chorman0773/SNES-Dev-Utils.git
