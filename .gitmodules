@@ -10,3 +10,6 @@
 [submodule "SNES-Dev-Utils"]
 	path = SNES-Dev-Utils
 	url = https://github.com/chorman0773/SNES-Dev-Utils.git
+[submodule "py-snes"]
+	path = py-snes
+	url = https://github.com/WorldsApartDevTeam/py-snes.git
